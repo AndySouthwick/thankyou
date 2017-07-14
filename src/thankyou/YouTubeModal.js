@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Modal, ModalHeader, ModalBody } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody } from 'reactstrap';
 import Youtube from './Youtube'
 
 class YouTubeModal extends React.Component {
@@ -24,7 +24,7 @@ class YouTubeModal extends React.Component {
 
                 <img src="images/Asset-2-8.png" color="danger" onClick={this.toggle}>{this.props.buttonLabel}</img>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-                    <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+                    <ModalHeader toggle={this.toggle}>Text To Get On The Trade Of The Day</ModalHeader>
                     <ModalBody>
                         <Youtube/>
                     </ModalBody>
